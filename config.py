@@ -6,9 +6,9 @@ load_dotenv()
 
 # Bot Configuration
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_USER_ID = int(os.getenv("ADMIN_USER_ID", 1704985763))
+ADMIN_USER_ID = int(os.getenv("ADMIN_USER_ID", 5831789218))
 CHANNEL_ID = int(os.getenv("CHANNEL_ID", 0))
-NOTIFICATION_CHANNEL = os.getenv("NOTIFICATION_CHANNEL", "@beridonasi")
+NOTIFICATION_CHANNEL = os.getenv("NOTIFICATION_CHANNEL", "@edukasilacak")
 
 # Database Configuration
 DATABASE_NAME = os.getenv("DATABASE_NAME", "donation_bot.db")
